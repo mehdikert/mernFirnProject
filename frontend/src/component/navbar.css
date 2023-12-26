@@ -1,0 +1,23 @@
+.navLink-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 100px;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
